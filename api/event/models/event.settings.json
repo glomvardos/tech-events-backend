@@ -15,7 +15,7 @@
     "title": {
       "type": "string",
       "required": true,
-      "maxLength": 30
+      "maxLength": 20
     },
     "slug": {
       "type": "uid",
@@ -44,7 +44,7 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": true,
+      "required": false,
       "pluginOptions": {}
     },
     "user": {
